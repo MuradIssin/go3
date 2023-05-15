@@ -199,7 +199,7 @@ blockquote {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .about-us {
     padding-top: 60px;
     margin-bottom: 60px;
@@ -228,6 +228,7 @@ blockquote {
     background-position: center;
     background-size: contain;
     border: none;
+    max-height: 380px;
   }
 
   .about-us__text {
