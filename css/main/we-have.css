@@ -16,6 +16,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 40px;
+  height: 120%;
+  padding-bottom: var(--transform-we-have);
+  /* padding-bottom: 300px; */
 }
 
 .we-have__card {
@@ -47,6 +50,7 @@
 .we-have__card--audio {
   background-image: url("../../image/audio.png");
   transform: translateY(var(--transform-we-have));
+  /* margin-top: 200px; */
 }
 
 .we-have__card--karaoke {
@@ -83,6 +87,7 @@
 
   .we-have__cards {
     row-gap: 30px;
+    padding-bottom: 53px;
   }
 
   .we-have__card {
@@ -116,6 +121,7 @@
 
   .we-have__cards {
     row-gap: 30px;
+    padding-bottom: 0;
   }
 
   .we-have__card {
